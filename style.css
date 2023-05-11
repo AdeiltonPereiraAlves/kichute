@@ -48,7 +48,10 @@ section{
 footer{
     grid-area: rodape;
 }
-.menu ul li {
+a{
+    list-style: none;
+}
+.menu ul li{
    list-style: none;
    padding: 50px;
    margin-top: 20px;
@@ -56,6 +59,11 @@ footer{
   
 
 
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 @media(max-width:600px){
     .menu{
@@ -90,7 +98,7 @@ footer{
 }
 
 .menu ul li:hover{
-   color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 .menu div{
