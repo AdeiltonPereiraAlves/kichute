@@ -13,7 +13,7 @@ body{
     grid-template-rows: 100px 1fr 100px;
     grid-template-areas: 'navegacao cabecalho'
     'navegacao conteudo'
-    'navegacao rodape';
+    'navegacao conteudo';
     overflow-x: hidden;
     
     
@@ -254,3 +254,21 @@ span{
         cursor: pointer;
         color: darkgrey;
    }
+   /*---------- pagina home -------- */
+   .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vh;
+
+
+   }
+   .modelo1{
+    display: flex;
+   
+   
+   }
+   .modelo1>img{
+     align-items: center;
+   }
+  
